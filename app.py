@@ -27,7 +27,7 @@ def refine_readme(content):
     response = openai.Completion.create(
         engine="text-davinci-003",
         prompt=prompt,
-        max_tokens=4000,
+        max_tokens=2000,
         n=1,
         stop=None,
         temperature=1,
